@@ -1,0 +1,9 @@
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/serde_path_to_error-989667c696b20835.d: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/path.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/ser.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/wrap.rs
+
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/libserde_path_to_error-989667c696b20835.rmeta: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/path.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/ser.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/wrap.rs
+
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/lib.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/path.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/ser.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/wrap.rs:

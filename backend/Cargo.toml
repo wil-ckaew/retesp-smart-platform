@@ -1,0 +1,53 @@
+[package]
+name = "retesp-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# --- Axum Web Framework ---
+axum = { version = "0.7", features = ["macros", "json"] }
+tokio = { version = "1", features = ["full"] }
+
+# --- Tower e Middlewares ---
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "trace", "compression-br"] }
+
+# --- Logs & Tracing ---
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# --- Env ---
+dotenvy = "0.15"
+
+# --- SQLx & Banco ---
+sqlx = { version = "0.7", features = ["postgres", "uuid", "chrono", "runtime-tokio", "macros", "migrate"] }
+
+# --- JSON & Format ---
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# --- Utilidades ---
+uuid = { version = "1", features = ["serde", "v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+bytes = "1.5"
+http = "1.0"
+
+# --- Segurança ---
+argon2 = "0.5"
+rand = "0.8"
+jsonwebtoken = "9"
+
+# --- Uploads ---
+mime = "0.3"
+
+# --- Necessário por causa dos módulos que usam hash MD5 ---
+md5 = "0.7"
+
+# --- Testes ---
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1

@@ -1,0 +1,86 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n        SELECT id, name, code, type, country, contact_email, contact_phone,\n               plan_type, api_key, created_at, updated_at, is_active\n        FROM customers\n        ORDER BY created_at DESC\n        ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Uuid"
+      },
+      {
+        "ordinal": 1,
+        "name": "name",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 2,
+        "name": "code",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 3,
+        "name": "type",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 4,
+        "name": "country",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 5,
+        "name": "contact_email",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 6,
+        "name": "contact_phone",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 7,
+        "name": "plan_type",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 8,
+        "name": "api_key",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 9,
+        "name": "created_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 10,
+        "name": "updated_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 11,
+        "name": "is_active",
+        "type_info": "Bool"
+      }
+    ],
+    "parameters": {
+      "Left": []
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "hash": "993c83470fce347c38256a62722b755c79f13327f5143aa1c34974aae28add6a"
+}

@@ -1,0 +1,13 @@
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/thiserror-676d02c45d4c28b0.d: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/provide.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /home/wil/rust/retesp-smart-platform/backend/target/debug/build/thiserror-2faa44ead68748a2/out/private.rs
+
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/libthiserror-676d02c45d4c28b0.rmeta: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/provide.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /home/wil/rust/retesp-smart-platform/backend/target/debug/build/thiserror-2faa44ead68748a2/out/private.rs
+
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/provide.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs:
+/home/wil/rust/retesp-smart-platform/backend/target/debug/build/thiserror-2faa44ead68748a2/out/private.rs:
+
+# env-dep:OUT_DIR=/home/wil/rust/retesp-smart-platform/backend/target/debug/build/thiserror-2faa44ead68748a2/out

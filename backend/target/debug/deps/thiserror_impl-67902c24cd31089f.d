@@ -1,0 +1,17 @@
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/thiserror_impl-67902c24cd31089f.d: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/ast.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/attr.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/expand.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/fallback.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/fmt.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/generics.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/prop.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/scan_expr.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/unraw.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/valid.rs
+
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/libthiserror_impl-67902c24cd31089f.so: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/ast.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/attr.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/expand.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/fallback.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/fmt.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/generics.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/prop.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/scan_expr.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/unraw.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/valid.rs
+
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/lib.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/ast.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/attr.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/expand.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/fallback.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/fmt.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/generics.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/prop.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/scan_expr.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/unraw.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-2.0.17/src/valid.rs:
+
+# env-dep:CARGO_PKG_VERSION_PATCH=17

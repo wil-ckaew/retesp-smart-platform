@@ -1,0 +1,56 @@
+name: RETESP Platform CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_PASSWORD: testpassword
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+    
+    - name: Run tests
+      run: |
+        cd backend
+        cargo test --verbose
+
+  deploy-production:
+    needs: test-backend
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Deploy to AWS
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.AWS_HOST }}
+        username: ${{ secrets.AWS_USER }}
+        key: ${{ secrets.AWS_SSH_KEY }}
+        script: |
+          cd /opt/retesp-platform
+          git pull origin main
+          docker-compose down
+          docker-compose build --no-cache
+          docker-compose up -d

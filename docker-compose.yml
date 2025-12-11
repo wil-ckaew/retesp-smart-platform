@@ -1,0 +1,81 @@
+version: "3.9"
+
+services:
+
+  db:
+    image: postgres:15
+    container_name: retesp_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: retesp_db
+    ports:
+      - "5433:5432" # porta externa 5433 → porta interna 5432
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - retesp-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: retesp_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - retesp-network
+
+
+  migrator:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: retesp_migrator
+    command: ["sh", "-c", "sleep 10 && cargo sqlx migrate run"]
+    environment:
+      DATABASE_URL: postgres://postgres:password@db:5432/retesp_db
+    depends_on:
+      - db
+    networks:
+      - retesp-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: retesp_backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgres://postgres:password@db:5432/retesp_db
+      RUST_LOG: info
+    depends_on:
+      - db
+      - migrator
+    networks:
+      - retesp-network
+
+  frontend:
+    build:
+      context: ./frontend-web
+      dockerfile: Dockerfile
+    container_name: retesp_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - backend
+    networks:
+      - retesp-network
+
+volumes:
+  db_data:
+
+networks:
+  retesp-network:
+    driver: bridge

@@ -1,0 +1,9 @@
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/compression_codecs-cac3a056f9a35ff1.d: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/mod.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/decoder.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/encoder.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/params.rs
+
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/libcompression_codecs-cac3a056f9a35ff1.rmeta: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/mod.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/decoder.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/encoder.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/params.rs
+
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/lib.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/mod.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/decoder.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/encoder.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-codecs-0.4.34/src/brotli/params.rs:

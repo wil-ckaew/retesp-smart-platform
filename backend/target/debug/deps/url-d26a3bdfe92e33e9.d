@@ -1,0 +1,13 @@
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/url-d26a3bdfe92e33e9.d: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/host.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/origin.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/parser.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/path_segments.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/slicing.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/quirks.rs
+
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/liburl-d26a3bdfe92e33e9.rlib: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/host.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/origin.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/parser.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/path_segments.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/slicing.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/quirks.rs
+
+/home/wil/rust/retesp-smart-platform/backend/target/debug/deps/liburl-d26a3bdfe92e33e9.rmeta: /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/lib.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/host.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/origin.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/parser.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/path_segments.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/slicing.rs /home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/quirks.rs
+
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/lib.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/host.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/origin.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/parser.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/path_segments.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/slicing.rs:
+/home/wil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.7/src/quirks.rs:
