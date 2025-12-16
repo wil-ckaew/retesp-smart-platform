@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
 
   db:
@@ -49,7 +47,7 @@ services:
       dockerfile: Dockerfile
     container_name: retesp_backend
     ports:
-      - "8000:8000"
+      - "8000:3000"
     environment:
       DATABASE_URL: postgres://postgres:password@db:5432/retesp_db
       RUST_LOG: info

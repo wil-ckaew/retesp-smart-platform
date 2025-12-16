@@ -1,5 +1,6 @@
 {
-  "extends": "expo/tsconfig.base",
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "expo/tsconfig.base.json",
   "compilerOptions": {
     "strict": true,
     "paths": {

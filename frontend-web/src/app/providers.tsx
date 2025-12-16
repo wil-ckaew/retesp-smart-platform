@@ -1,9 +1,9 @@
-// src/app/providers.tsx
+// frontend-web/src/app/providers.tsx
 "use client";
 
 import { ReactNode } from "react";
 import { Toaster } from "react-hot-toast";
-import { ThemeWrapper } from "./ThemeWrapper";
+import { ThemeProvider } from "@/hooks/useTheme";
 
 interface ProvidersProps {
   children: ReactNode;
@@ -11,9 +11,20 @@ interface ProvidersProps {
 
 export function Providers({ children }: ProvidersProps) {
   return (
-    <ThemeWrapper>
+    <ThemeProvider>
       {children}
-      <Toaster position="top-right" />
-    </ThemeWrapper>
+      <Toaster 
+        position="top-right" 
+        toastOptions={{
+          duration: 4000,
+          style: {
+            background: 'var(--background)',
+            color: 'var(--foreground)',
+            border: '1px solid var(--border)',
+            borderRadius: 'var(--radius)',
+          },
+        }}
+      />
+    </ThemeProvider>
   );
 }
